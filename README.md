@@ -1,5 +1,5 @@
 # bindPromiseToDispatch
-use dispatch as Promise
+use dispatch as Promise in redux-saga
 
 ## Installation
 ```sh
