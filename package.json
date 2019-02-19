@@ -1,12 +1,23 @@
 {
   "name": "bind-promise-to-dispatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir dist --ignore 'src /**/*.spec.js','src /**/*.test.js'"
   },
-  "keywords": ["react", "redux", "dispatch", "redux-saga"],
+  "keywords": [
+    "react",
+    "redux",
+    "dispatch",
+    "redux-saga"
+  ],
   "author": "Zewail Chan",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.1"
+  }
 }
